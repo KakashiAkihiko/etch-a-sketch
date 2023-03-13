@@ -1,0 +1,45 @@
+.nav-bar{
+    display : flex;
+    flex-direction : row;
+    background-color: rgb(102, 102, 255);
+    max-height: 70px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.nav-bar-left{
+    display : flex;
+}
+
+
+.nav-bar-mid{
+    display : flex;
+    align-items: center;
+}
+
+
+.nav-bar-right{
+    display : flex;
+    align-items: center;
+}
+
+.banner-header{
+    color: white;
+}
+
+.grid {
+    display: flex;   /* <--- required */
+    justify-content: center;
+}
+
+.column {
+   
+}
+
+.row {
+    margin: 2px;
+    background: gold;
+    text-align: center;
+    aspect-ratio: 1/1;
+    min-width: 50px;
+}
