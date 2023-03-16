@@ -17,18 +17,9 @@ for (var i = 0; i < columns; ++i) {
         row.className = 'row';
         row.textContent = i + '-' + j; // set text
         
+
         column.appendChild(row); // append row in column
     }
     grid.appendChild(column); // append column inside grid
 }
 document.body.appendChild(grid);
-
-/*
-document.querySelectorAll("row").addEventListener(
-    "mouseover", function () {
-
-        row.style.background
-            = color[Math.floor(Math.random() * color.length)];
-    })
-
-    */
