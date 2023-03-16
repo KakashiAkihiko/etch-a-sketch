@@ -14,7 +14,9 @@ for (let i = 0; i < columns; i++) {
     for (let j = 0; j < rows; j++) {
         let row = document.createElement('div'); // create row
         row.className = 'row';
-        row.textContent = i + '-' + j; // set text
+        row.addEventListener('mouseover', () => {
+            row.style.backgroundColor = "black";
+        });
         column.appendChild(row); // append row in column
     }
     grid.appendChild(column); // append column inside grid
